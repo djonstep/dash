@@ -104,7 +104,7 @@ done too.
 0.12.2.2 Change log
 ===================
 
-See detailed [change log](https://github.com/djonstep/eziocoin/compare/v0.12.2.1...dashpay:v0.12.2.2) below.
+See detailed [change log](https://github.com/djonstep/eziocoin/compare/v0.12.2.1...djonstep:v0.12.2.2) below.
 
 ### Backports:
 - [`996f5103a`](https://github.com/djonstep/eziocoin/commit/996f5103a) Backport #7056: Save last db read
