@@ -87,8 +87,8 @@ class MaxUploadTest(BitcoinTestFramework):
  
     def add_options(self, parser):
         parser.add_option("--testbinary", dest="testbinary",
-                          default=os.getenv("EZIOCOIND", "dashd"),
-                          help="dashd binary to test")
+                          default=os.getenv("EZIOCOIND", "eziocoind"),
+                          help="eziocoind binary to test")
 
     def setup_chain(self):
         initialize_chain_clean(self.options.tmpdir, 2)

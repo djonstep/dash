@@ -1,9 +1,9 @@
 Eziocoin Core staging tree 0.12.2
 ===============================
 
-`master:` [![Build Status](https://travis-ci.org/djonstep/dash.svg?branch=master)](https://travis-ci.org/djonstep/dash) `develop:` [![Build Status](https://travis-ci.org/djonstep/dash.svg?branch=develop)](https://travis-ci.org/djonstep/dash/branches)
+`master:` [![Build Status](https://travis-ci.org/djonstep/eziocoin.svg?branch=master)](https://travis-ci.org/djonstep/eziocoin) `develop:` [![Build Status](https://travis-ci.org/djonstep/eziocoin.svg?branch=develop)](https://travis-ci.org/djonstep/eziocoin/branches)
 
-https://www.dash.org
+https://www.eziocoin.org
 
 
 What is Eziocoin?
@@ -16,7 +16,7 @@ are carried out collectively by the network. Eziocoin Core is the name of the op
 source software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Eziocoin Core software, see https://www.dash.org/get-dash/.
+the Eziocoin Core software, see https://www.eziocoin.org/get-eziocoin/.
 
 
 License
@@ -66,7 +66,7 @@ Translations
 ------------
 
 Changes to translations as well as new translations can be submitted to
-[Eziocoin Core's Transifex page](https://www.transifex.com/projects/p/dash/).
+[Eziocoin Core's Transifex page](https://www.transifex.com/projects/p/eziocoin/).
 
 Translations are periodically pulled from Transifex and merged into the git repository. See the
 [translation process](doc/translation_process.md) for details on how this works.
@@ -74,4 +74,4 @@ Translations are periodically pulled from Transifex and merged into the git repo
 **Important**: We do not accept translation changes as GitHub pull requests because the next
 pull from Transifex would automatically overwrite them again.
 
-Translators should also follow the [forum](https://www.dash.org/forum/topic/dash-worldwide-collaboration.88/).
+Translators should also follow the [forum](https://www.eziocoin.org/forum/topic/eziocoin-worldwide-collaboration.88/).

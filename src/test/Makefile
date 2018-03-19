@@ -1,6 +1,6 @@
 all:
-	$(MAKE) -C .. dash_test
+	$(MAKE) -C .. eziocoin_test
 clean:
-	$(MAKE) -C .. dash_test_clean
+	$(MAKE) -C .. eziocoin_test_clean
 check:
-	$(MAKE) -C .. dash_test_check
+	$(MAKE) -C .. eziocoin_test_check

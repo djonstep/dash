@@ -13,7 +13,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"org.dash.Eziocoin-Qt";
+        return @"org.eziocoin.Eziocoin-Qt";
     } else {
         return [self __bundleIdentifier];
     }

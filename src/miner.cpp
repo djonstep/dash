@@ -404,7 +404,7 @@ void static BitcoinMiner(const CChainParams& chainparams, CConnman& connman)
 {
     LogPrintf("EziocoinMiner -- started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
-    RenameThread("dash-miner");
+    RenameThread("eziocoin-miner");
 
     unsigned int nExtraNonce = 0;
 

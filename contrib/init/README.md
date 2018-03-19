@@ -1,11 +1,11 @@
 Sample configuration files for:
 
-SystemD: dashd.service
-Upstart: dashd.conf
-OpenRC:  dashd.openrc
-         dashd.openrcconf
-CentOS:  dashd.init
-OS X:    org.dash.dashd.plist
+SystemD: eziocoind.service
+Upstart: eziocoind.conf
+OpenRC:  eziocoind.openrc
+         eziocoind.openrcconf
+CentOS:  eziocoind.init
+OS X:    org.eziocoin.eziocoind.plist
 
 have been made available to assist packagers in creating node packages here.
 

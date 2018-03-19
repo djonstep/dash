@@ -3,7 +3,7 @@ Eziocoin Core version 0.12.2
 
 Release is now available from:
 
-  <https://www.dash.org/downloads/#wallets>
+  <https://www.eziocoin.org/downloads/#wallets>
 
 This is a new major version release, bringing new features and other improvements.
 
@@ -20,7 +20,7 @@ How to Upgrade
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes for older versions), then run the
 installer (on Windows) or just copy over /Applications/Eziocoin-Qt (on Mac) or
-dashd/dash-qt (on Linux).
+eziocoind/eziocoin-qt (on Linux).
 
 Downgrade warning
 -----------------
@@ -78,7 +78,7 @@ New: `assumevalid`, `blocksonly`, `reindex-chainstate`
 
 Experimental: `usehd`, `mnemonic`, `mnemonicpassphrase`, `hdseed`
 
-See `Help -> Command-line options` in Qt wallet or `dashd --help` for more info.
+See `Help -> Command-line options` in Qt wallet or `eziocoind --help` for more info.
 
 PrivateSend improvements
 ------------------------
@@ -106,7 +106,7 @@ Detailed [change log](https://github.com/djonstep/eziocoin/compare/v0.12.1.x...d
 
 ### Backports:
 - [`ff30aed68`](https://github.com/djonstep/eziocoin/commit/ff30aed68) Align with btc 0.12 (#1409)
-- [`9901cf433`](https://github.com/djonstep/eziocoin/commit/9901cf433) Fix for dash-qt issue with startup and multiple monitors. (#1461)
+- [`9901cf433`](https://github.com/djonstep/eziocoin/commit/9901cf433) Fix for eziocoin-qt issue with startup and multiple monitors. (#1461)
 - [`39750439b`](https://github.com/djonstep/eziocoin/commit/39750439b) Force to use C++11 mode for compilation (#1463)
 - [`e30faab6f`](https://github.com/djonstep/eziocoin/commit/e30faab6f) Make strWalletFile const (#1459)
 - [`c4fe22900`](https://github.com/djonstep/eziocoin/commit/c4fe22900) Access WorkQueue::running only within the cs lock. (#1460)
@@ -253,7 +253,7 @@ Detailed [change log](https://github.com/djonstep/eziocoin/compare/v0.12.1.x...d
 - [`5758ae1bf`](https://github.com/djonstep/eziocoin/commit/5758ae1bf) Full path in "failed to load cache" warnings (#1411)
 - [`18c83f58e`](https://github.com/djonstep/eziocoin/commit/18c83f58e) Qt: bug fixes and enhancement to traffic graph widget  (#1429)
 - [`72fbfe93d`](https://github.com/djonstep/eziocoin/commit/72fbfe93d) Icon Cutoff Fix (#1485)
-- [`4df8a20f9`](https://github.com/djonstep/eziocoin/commit/4df8a20f9) Fix windows installer script, should handle `dash:` uri correctly now (#1550)
+- [`4df8a20f9`](https://github.com/djonstep/eziocoin/commit/4df8a20f9) Fix windows installer script, should handle `eziocoin:` uri correctly now (#1550)
 - [`8b7dffbb6`](https://github.com/djonstep/eziocoin/commit/8b7dffbb6) Update startup shortcuts (#1551)
 - [`6ff7b7aa5`](https://github.com/djonstep/eziocoin/commit/6ff7b7aa5) fix TrafficGraphData bandwidth calculation (#1618)
 - [`026ad8421`](https://github.com/djonstep/eziocoin/commit/026ad8421) Fix empty tooltip during sync under specific conditions (#1637)
@@ -318,7 +318,7 @@ Detailed [change log](https://github.com/djonstep/eziocoin/compare/v0.12.1.x...d
 - [`7a5943c3a`](https://github.com/djonstep/eziocoin/commit/7a5943c3a) Merge pull request #1431 from djonstep/v0.12.2.x-merge_upstream
 - [`8bbcf6200`](https://github.com/djonstep/eziocoin/commit/8bbcf6200) Fixed pow (test and algo) (#1415)
 - [`f3b92a95d`](https://github.com/djonstep/eziocoin/commit/f3b92a95d) c++11: don't throw from the reverselock destructor (#1421)
-- [`b40f8f333`](https://github.com/djonstep/eziocoin/commit/b40f8f333) Rename bitcoinconsensus library to dashconsensus. (#1432)
+- [`b40f8f333`](https://github.com/djonstep/eziocoin/commit/b40f8f333) Rename bitcoinconsensus library to eziocoinconsensus. (#1432)
 - [`28a1d0ecc`](https://github.com/djonstep/eziocoin/commit/28a1d0ecc) Fix the same header included twice. (#1474)
 - [`adf97e12a`](https://github.com/djonstep/eziocoin/commit/adf97e12a) fix travis ci mac build (#1483)
 - [`a28fa724c`](https://github.com/djonstep/eziocoin/commit/a28fa724c) fix BIP34 starting blocks for mainnet/testnet (#1476)
@@ -374,7 +374,7 @@ Thanks to everyone who directly contributed to this release:
 - UdjinM6
 - Will Wray
 
-As well as Bitcoin Core Developers and everyone that submitted issues or helped translating on [Transifex](https://www.transifex.com/projects/p/dash/).
+As well as Bitcoin Core Developers and everyone that submitted issues or helped translating on [Transifex](https://www.transifex.com/projects/p/eziocoin/).
 
 
 Older releases
@@ -400,11 +400,11 @@ Eziocoin Core tree 0.12.1.x was a fork of Bitcoin Core tree 0.12.
 
 These release are considered obsolete. Old changelogs can be found here:
 
-- [v0.12.1](release-notes/dash/release-notes-0.12.1.md) released ???/??/2016
-- [v0.12.0](release-notes/dash/release-notes-0.12.0.md) released ???/??/2015
-- [v0.11.2](release-notes/dash/release-notes-0.11.2.md) released Mar/25/2015
-- [v0.11.1](release-notes/dash/release-notes-0.11.1.md) released Feb/10/2015
-- [v0.11.0](release-notes/dash/release-notes-0.11.0.md) released Jan/15/2015
-- [v0.10.x](release-notes/dash/release-notes-0.10.0.md) released Sep/25/2014
-- [v0.9.x](release-notes/dash/release-notes-0.9.0.md) released Mar/13/2014
+- [v0.12.1](release-notes/eziocoin/release-notes-0.12.1.md) released ???/??/2016
+- [v0.12.0](release-notes/eziocoin/release-notes-0.12.0.md) released ???/??/2015
+- [v0.11.2](release-notes/eziocoin/release-notes-0.11.2.md) released Mar/25/2015
+- [v0.11.1](release-notes/eziocoin/release-notes-0.11.1.md) released Feb/10/2015
+- [v0.11.0](release-notes/eziocoin/release-notes-0.11.0.md) released Jan/15/2015
+- [v0.10.x](release-notes/eziocoin/release-notes-0.10.0.md) released Sep/25/2014
+- [v0.9.x](release-notes/eziocoin/release-notes-0.9.0.md) released Mar/13/2014
 

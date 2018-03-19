@@ -3,13 +3,13 @@ Description=Eziocoin's distributed currency daemon
 After=network.target
 
 [Service]
-User=dashcore
-Group=dashcore
+User=eziocoincore
+Group=eziocoincore
 
 Type=forking
-PIDFile=/var/lib/dashd/dashd.pid
-ExecStart=/usr/bin/dashd -daemon -pid=/var/lib/dashd/dashd.pid \
--conf=/etc/dashcore/dash.conf -datadir=/var/lib/dashd -disablewallet
+PIDFile=/var/lib/eziocoind/eziocoind.pid
+ExecStart=/usr/bin/eziocoind -daemon -pid=/var/lib/eziocoind/eziocoind.pid \
+-conf=/etc/eziocoincore/eziocoin.conf -datadir=/var/lib/eziocoind -disablewallet
 
 Restart=always
 PrivateTmp=true

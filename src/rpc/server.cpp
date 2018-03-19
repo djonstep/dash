@@ -344,19 +344,19 @@ static const CRPCCommand vRPCCommands[] =
 #endif
 
     /* Eziocoin features */
-    { "dash",               "masternode",             &masternode,             true  },
-    { "dash",               "masternodelist",         &masternodelist,         true  },
-    { "dash",               "masternodebroadcast",    &masternodebroadcast,    true  },
-    { "dash",               "gobject",                &gobject,                true  },
-    { "dash",               "getgovernanceinfo",      &getgovernanceinfo,      true  },
-    { "dash",               "getsuperblockbudget",    &getsuperblockbudget,    true  },
-    { "dash",               "voteraw",                &voteraw,                true  },
-    { "dash",               "mnsync",                 &mnsync,                 true  },
-    { "dash",               "spork",                  &spork,                  true  },
-    { "dash",               "getpoolinfo",            &getpoolinfo,            true  },
-    { "dash",               "sentinelping",           &sentinelping,           true  },
+    { "eziocoin",               "masternode",             &masternode,             true  },
+    { "eziocoin",               "masternodelist",         &masternodelist,         true  },
+    { "eziocoin",               "masternodebroadcast",    &masternodebroadcast,    true  },
+    { "eziocoin",               "gobject",                &gobject,                true  },
+    { "eziocoin",               "getgovernanceinfo",      &getgovernanceinfo,      true  },
+    { "eziocoin",               "getsuperblockbudget",    &getsuperblockbudget,    true  },
+    { "eziocoin",               "voteraw",                &voteraw,                true  },
+    { "eziocoin",               "mnsync",                 &mnsync,                 true  },
+    { "eziocoin",               "spork",                  &spork,                  true  },
+    { "eziocoin",               "getpoolinfo",            &getpoolinfo,            true  },
+    { "eziocoin",               "sentinelping",           &sentinelping,           true  },
 #ifdef ENABLE_WALLET
-    { "dash",               "privatesend",            &privatesend,            false },
+    { "eziocoin",               "privatesend",            &privatesend,            false },
 
     /* Wallet */
     { "wallet",             "keepass",                &keepass,                true },
@@ -580,7 +580,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(const std::string& methodname, const std::string& args)
 {
-    return "> dash-cli " + methodname + " " + args + "\n";
+    return "> eziocoin-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(const std::string& methodname, const std::string& args)

@@ -3,7 +3,7 @@ Eziocoin Core version 0.12.2.2
 
 Release is now available from:
 
-  <https://www.dash.org/downloads/#wallets>
+  <https://www.eziocoin.org/downloads/#wallets>
 
 This is a new minor version release, bringing various bugfixes and other
 improvements.
@@ -22,7 +22,7 @@ How to Upgrade
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes for older versions), then run the
 installer (on Windows) or just copy over /Applications/Eziocoin-Qt (on Mac) or
-dashd/dash-qt (on Linux). Because of the per-UTXO fix (see below) there is a
+eziocoind/eziocoin-qt (on Linux). Because of the per-UTXO fix (see below) there is a
 one-time database upgrade operation, so expect a slightly longer startup time on
 the first run.
 
@@ -223,7 +223,7 @@ Thanks to everyone who directly contributed to this release:
 
 As well as Bitcoin Core Developers and everyone that submitted issues,
 reviewed pull requests or helped translating on
-[Transifex](https://www.transifex.com/projects/p/dash/).
+[Transifex](https://www.transifex.com/projects/p/eziocoin/).
 
 
 Older releases
@@ -249,12 +249,12 @@ Eziocoin Core tree 0.12.1.x was a fork of Bitcoin Core tree 0.12.
 
 These release are considered obsolete. Old release notes can be found here:
 
-- [v0.12.2](release-notes/dash/release-notes-0.12.2.md) released Nov/08/2017
-- [v0.12.1](release-notes/dash/release-notes-0.12.1.md) released ???/??/2016
-- [v0.12.0](release-notes/dash/release-notes-0.12.0.md) released ???/??/2015
-- [v0.11.2](release-notes/dash/release-notes-0.11.2.md) released Mar/25/2015
-- [v0.11.1](release-notes/dash/release-notes-0.11.1.md) released Feb/10/2015
-- [v0.11.0](release-notes/dash/release-notes-0.11.0.md) released Jan/15/2015
-- [v0.10.x](release-notes/dash/release-notes-0.10.0.md) released Sep/25/2014
-- [v0.9.x](release-notes/dash/release-notes-0.9.0.md) released Mar/13/2014
+- [v0.12.2](release-notes/eziocoin/release-notes-0.12.2.md) released Nov/08/2017
+- [v0.12.1](release-notes/eziocoin/release-notes-0.12.1.md) released ???/??/2016
+- [v0.12.0](release-notes/eziocoin/release-notes-0.12.0.md) released ???/??/2015
+- [v0.11.2](release-notes/eziocoin/release-notes-0.11.2.md) released Mar/25/2015
+- [v0.11.1](release-notes/eziocoin/release-notes-0.11.1.md) released Feb/10/2015
+- [v0.11.0](release-notes/eziocoin/release-notes-0.11.0.md) released Jan/15/2015
+- [v0.10.x](release-notes/eziocoin/release-notes-0.10.0.md) released Sep/25/2014
+- [v0.9.x](release-notes/eziocoin/release-notes-0.9.0.md) released Mar/13/2014
 
