@@ -1,9 +1,9 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Dash
-Comment=Dash P2P Cryptocurrency
-Comment[fr]=Dash, monnaie virtuelle cryptographique pair à pair
-Comment[tr]=Dash, eşten eşe kriptografik sanal para birimi
+Name=Eziocoin
+Comment=Eziocoin P2P Cryptocurrency
+Comment[fr]=Eziocoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Eziocoin, eşten eşe kriptografik sanal para birimi
 Exec=dash-qt %u
 Terminal=false
 Type=Application

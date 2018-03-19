@@ -1,5 +1,5 @@
 // Copyright (c) 2011-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2017 The Dash Core developers
+// Copyright (c) 2014-2017 The Eziocoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -72,10 +72,10 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case EZIOCOIN: return QString("Dash");
-            case mEZIOCOIN: return QString("Milli-Dash (1 / 1" THIN_SP_UTF8 "000)");
-            case uEZIOCOIN: return QString("Micro-Dash (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-            case duffs: return QString("Ten Nano-Dash (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case EZIOCOIN: return QString("Eziocoin");
+            case mEZIOCOIN: return QString("Milli-Eziocoin (1 / 1" THIN_SP_UTF8 "000)");
+            case uEZIOCOIN: return QString("Micro-Eziocoin (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case duffs: return QString("Ten Nano-Eziocoin (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
     }
@@ -83,10 +83,10 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case EZIOCOIN: return QString("TestDashs");
-            case mEZIOCOIN: return QString("Milli-TestDash (1 / 1" THIN_SP_UTF8 "000)");
-            case uEZIOCOIN: return QString("Micro-TestDash (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-            case duffs: return QString("Ten Nano-TestDash (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case EZIOCOIN: return QString("TestEziocoins");
+            case mEZIOCOIN: return QString("Milli-TestEziocoin (1 / 1" THIN_SP_UTF8 "000)");
+            case uEZIOCOIN: return QString("Micro-TestEziocoin (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case duffs: return QString("Ten Nano-TestEziocoin (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
     }

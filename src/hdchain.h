@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2017 The Dash Core developers
+// Copyright (c) 2014-2017 The Eziocoin Core developers
 // Distributed under the MIT software license, see the accompanying
 #ifndef EZIOCOIN_HDCHAIN_H
 #define EZIOCOIN_HDCHAIN_H

@@ -4,15 +4,15 @@
 
 	* means the category has an associated class
 	
-	CDashNetwork: EZIOCOIN NETWORK (ROOT)
+	CEziocoinNetwork: EZIOCOIN NETWORK (ROOT)
 	has:
 		vector<CNetworkVariable> vecNetworkVariables;
-		vector<CDashProject> vecProjects;
+		vector<CEziocoinProject> vecProjects;
 		vector<CGovernanceObject> vecProposals;
 		vector<CBudgetContract> vecContracts;
 		vector<CBudgetUsers> vecUsers;
 
-	CDashProject:
+	CEziocoinProject:
 	has:
 		name
 		employees

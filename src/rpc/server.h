@@ -123,7 +123,7 @@ public:
 };
 
 /**
- * Dash RPC command dispatcher.
+ * Eziocoin RPC command dispatcher.
  */
 class CRPCTable
 {
