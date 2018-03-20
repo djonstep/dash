@@ -1,5 +1,5 @@
 ---
-name: "eziocoin-linux-0.12"
+name: "eziocoin-linux-1.0.0.1"
 enable_cache: true
 suites:
 - "trusty"
