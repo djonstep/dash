@@ -14,7 +14,7 @@ remotes:
 files:
 - "osslsigncode-1.7.1.tar.gz"
 - "osslsigncode-Backports-to-1.7.1.patch"
-- "bitcoin-win-unsigned.tar.gz"
+- "eziocoin-v1.0.0-win-unsigned.tar.gz"
 script: |
   BUILD_DIR=`pwd`
   SIGDIR=${BUILD_DIR}/signature/win

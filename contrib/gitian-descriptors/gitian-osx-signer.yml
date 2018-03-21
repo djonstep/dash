@@ -11,7 +11,7 @@ remotes:
 - "url": "https://github.com/djonstep/eziocoin-detached-sigs.git"
   "dir": "signature"
 files:
-- "eziocoin-osx-unsigned.tar.gz"
+- "eziocoin-v1.0.0-osx-unsigned.tar.gz"
 script: |
   WRAP_DIR=$HOME/wrapped
   mkdir -p ${WRAP_DIR}
